@@ -1,0 +1,26 @@
+{
+  "$schema": "file:///C:/helios/Churoo%20PlayGround/distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "츄르네 놀이터",
+    "description": "츄르네 놀이터 Minecraft 1.20.1 (Fabric v0.15.11)",
+    "icon": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/serverimg.png",
+    "address": "churoo.kro.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.15.11"
+  },
+  "untrackedFiles": [{
+    "appliesTo": ["files"],
+    "patterns": [
+      "config/*"
+    ]
+  }]
+}

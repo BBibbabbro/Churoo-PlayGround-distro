@@ -1,0 +1,591 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "ChurooPlayGround",
+      "name": "츄르네 놀이터",
+      "description": "츄르네 놀이터 Minecraft 1.20.1 (Fabric v0.15.11)",
+      "icon": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/serverimg.png",
+      "version": "1.0.0",
+      "address": "churoo.kro.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "99be5ba9762830aa8df391edd0c67d95",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/versions/1.20.1-fabric-0.15.11/1.20.1-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.afoxxvi:asteorbar:1.4.6@jar",
+          "name": "AsteorBar",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1115780,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/asteorbar-fabric-1.20.1-1.4.6.jar",
+            "MD5": "6ce649c5f910fed9ff97cff89a1bd602"
+          }
+        },
+        {
+          "id": "com.koteinik:chunksfadein:1.0.7-1.20.1@jar",
+          "name": "Chunks Fade In",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 313164,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/chunksfadein-1.0.7-1.20.1.jar",
+            "MD5": "72f73ad09607a52853201beb6349153e"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.6.7@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 66833,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/entityculling-fabric-1.6.7-mc1.20.1.jar",
+            "MD5": "fbe3346ff2bd70ce7418b74496434e08"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397198,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "9b680a583230400e887dc545aa974936"
+          }
+        },
+        {
+          "id": "kr.cosine.simplef3:hqsimplef3:1.0.3@jar",
+          "name": "HQSimpleF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 80916,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/HQSimpleF3-1.0.0.jar",
+            "MD5": "6e7ed2075f73b1035f42696ee277de37"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.18@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123781,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/Iceberg-1.20.1-fabric-1.1.18.jar",
+            "MD5": "6ea7e424f1c45e2bd6ac84b2e1b8955a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2701293,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/iris-1.7.2+mc1.20.1.jar",
+            "MD5": "fde2833d321c3f09020bd456094693d3"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.1@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7208985,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.1-fabric.jar",
+            "MD5": "7dd3280a4990dc42aaa2cc2ca7a0f680"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63969,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+            "MD5": "da13b6865a45746799f4465409509a52"
+          }
+        },
+        {
+          "id": "games.alejandrocoria:mapfrontiers:2.6.0p4@jar",
+          "name": "MapFrontiers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 438954,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/MapFrontiers-1.20.1-2.6.0p4-fabric.jar",
+            "MD5": "46c3328d88c2e637554525da2432c1a0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57257,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/Prism-1.20.1-fabric-1.0.5.jar",
+            "MD5": "2eed6d81c1b72c75646d33b1b5d9dcfe"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.21@jar",
+          "name": "Puzzles Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 978795,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/PuzzlesLib-v8.1.21-1.20.1-Fabric.jar",
+            "MD5": "eb0c99e235ee5233fcd4063379d92396"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.20@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8068655,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.20.jar",
+            "MD5": "f557f0ea6b608ee001855d14d233a5a3"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip.txt",
+          "name": "ComplementaryUnbound_r5.2.2.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 187,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/ComplementaryUnbound_r5.2.2.zip.txt",
+            "MD5": "8cd934e050a43d4739c9237e75a049fe",
+            "path": "ComplementaryUnbound_r5.2.2.zip.txt"
+          }
+        },
+        {
+          "id": "asteorbar.json5",
+          "name": "asteorbar.json5",
+          "type": "File",
+          "artifact": {
+            "size": 13225,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/asteorbar.json5",
+            "path": "config/asteorbar.json5"
+          }
+        },
+        {
+          "id": "betteranimationscollection-client.toml",
+          "name": "betteranimationscollection-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9814,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/betteranimationscollection-client.toml",
+            "path": "config/betteranimationscollection-client.toml"
+          }
+        },
+        {
+          "id": "chunksfadein.properties",
+          "name": "chunksfadein.properties",
+          "type": "File",
+          "artifact": {
+            "size": 273,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/chunksfadein.properties",
+            "path": "config/chunksfadein.properties"
+          }
+        },
+        {
+          "id": "crowdin.txt",
+          "name": "crowdin.txt",
+          "type": "File",
+          "artifact": {
+            "size": 69,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/crowdin.txt",
+            "path": "config/crowdin.txt"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 929,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/entityculling.json",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "93635ca465aa477cade4a8d973db1a1b",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1525,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/ferritecore.mixin.properties",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "forgeconfigapiport.toml",
+          "name": "forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1582,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/forgeconfigapiport.toml",
+            "path": "config/forgeconfigapiport.toml"
+          }
+        },
+        {
+          "id": "hqsimplef3-client.json",
+          "name": "hqsimplef3-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 143,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/hqsimplef3-client.json",
+            "path": "config/hqsimplef3-client.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "journeymap-server.json",
+          "name": "journeymap-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 67,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/journeymap-server.json",
+            "path": "config/journeymap-server.json"
+          }
+        },
+        {
+          "id": "legendarytooltips-common.toml",
+          "name": "legendarytooltips-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8283,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/legendarytooltips-common.toml",
+            "path": "config/legendarytooltips-common.toml"
+          }
+        },
+        {
+          "id": "mapfrontiers-client.toml",
+          "name": "mapfrontiers-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3437,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/mapfrontiers-client.toml",
+            "path": "config/mapfrontiers-client.toml"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/sodium-fingerprint.json",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/sodium-mixins.properties",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 630,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1133,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "3847ec6998814d22e66360d37201fcc9",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 50,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "274ca74b392f2e18bc64f59a86fc67c3",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3923,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "64b02ce20b71e8757a6ce1fa736ded51",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1861,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "301faeac5a0b0a3229892e8fb90fad01",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/voicechat-volumes.properties",
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "path": "config/voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/xaeropatreon.txt",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap-common.txt",
+          "name": "xaeroworldmap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/xaeroworldmap-common.txt",
+            "path": "config/xaeroworldmap-common.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap.txt",
+          "name": "xaeroworldmap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1218,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/xaeroworldmap.txt",
+            "path": "config/xaeroworldmap.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 231,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/optionsshaders.txt",
+            "MD5": "684f80dbc68d48df4d52c7ef5e8674c0",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "churoo playground season2.zip",
+          "name": "churoo playground season2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5111906,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/resourcepacks/churoo%20playground%20season2.zip",
+            "MD5": "d07735dba03104b9cef3bc9ee871e5c7",
+            "path": "resourcepacks/churoo playground season2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441687,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "77b72dd3824ad2d6ddb1f952a786137c",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
