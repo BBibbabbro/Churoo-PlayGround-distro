@@ -363,7 +363,6 @@
           "artifact": {
             "size": 290,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/fabric/indigo-renderer.properties",
-            "MD5": "93635ca465aa477cade4a8d973db1a1b",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -474,7 +473,6 @@
           "artifact": {
             "size": 1133,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/translations.properties",
-            "MD5": "3847ec6998814d22e66360d37201fcc9",
             "path": "config/voicechat/translations.properties"
           }
         },
@@ -485,7 +483,6 @@
           "artifact": {
             "size": 50,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/username-cache.json",
-            "MD5": "274ca74b392f2e18bc64f59a86fc67c3",
             "path": "config/voicechat/username-cache.json"
           }
         },
@@ -496,7 +493,6 @@
           "artifact": {
             "size": 3923,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/voicechat-client.properties",
-            "MD5": "64b02ce20b71e8757a6ce1fa736ded51",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
@@ -507,7 +503,6 @@
           "artifact": {
             "size": 1861,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/voicechat-server.properties",
-            "MD5": "301faeac5a0b0a3229892e8fb90fad01",
             "path": "config/voicechat/voicechat-server.properties"
           }
         },
@@ -518,7 +513,6 @@
           "artifact": {
             "size": 37,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/voicechat/voicechat-volumes.properties",
-            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
             "path": "config/voicechat/voicechat-volumes.properties"
           }
         },
