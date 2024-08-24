@@ -547,6 +547,17 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 90,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/options.txt",
+            "MD5": "c5627c563412b0111e6af1d146118868",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "optionsshaders.txt",
           "name": "optionsshaders.txt",
           "type": "File",
