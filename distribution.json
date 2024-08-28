@@ -206,6 +206,16 @@
           }
         },
         {
+            "id": "com.terraformersmc:modmenu:7.2.2@jar",
+            "name": "Mod Menu",
+            "type": "FabricMod",
+            "artifact": {
+              "size": 721366,
+              "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+              "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+            }
+          },
+        {
           "id": "journeymap:journeymap:5.10.1@jar",
           "name": "Journeymap",
           "type": "FabricMod",
@@ -364,6 +374,16 @@
             "size": 290,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/fabric/indigo-renderer.properties",
             "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 814,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/modmenu.json",
+            "path": "config/modmenu.json"
           }
         },
         {
