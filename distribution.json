@@ -12,7 +12,7 @@
       "name": "츄르네 놀이터",
       "description": "츄르네 놀이터 Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/serverimg.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "churoo.kro.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -434,6 +434,26 @@
             "size": 8283,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/legendarytooltips-common.toml",
             "path": "config/legendarytooltips-common.toml"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.2.4@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 426625,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.2.4.jar",
+            "MD5": "41e0537846b85cf476ead3d5c7493e43"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.3@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 627961,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.2.3.jar",
+            "MD5": "72c7dda06b95b99470f9e4ce516c2eaf"
           }
         },
         {
