@@ -12,7 +12,7 @@
       "name": "츄르네 놀이터",
       "description": "츄르네 놀이터 Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/serverimg.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "churoo.kro.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -206,16 +206,6 @@
           }
         },
         {
-            "id": "com.terraformersmc:modmenu:7.2.2@jar",
-            "name": "Mod Menu",
-            "type": "FabricMod",
-            "artifact": {
-              "size": 721366,
-              "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
-              "MD5": "2629511a2d3b141d9f2a24dc9685637e"
-            }
-          },
-        {
           "id": "journeymap:journeymap:5.10.1@jar",
           "name": "Journeymap",
           "type": "FabricMod",
@@ -253,6 +243,16 @@
             "size": 438954,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/MapFrontiers-1.20.1-2.6.0p4-fabric.jar",
             "MD5": "46c3328d88c2e637554525da2432c1a0"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
           }
         },
         {
@@ -341,7 +341,7 @@
           "name": "chunksfadein.properties",
           "type": "File",
           "artifact": {
-            "size": 273,
+            "size": 272,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/chunksfadein.properties",
             "path": "config/chunksfadein.properties"
           }
@@ -374,16 +374,6 @@
             "size": 290,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/fabric/indigo-renderer.properties",
             "path": "config/fabric/indigo-renderer.properties"
-          }
-        },
-        {
-          "id": "modmenu.json",
-          "name": "modmenu.json",
-          "type": "File",
-          "artifact": {
-            "size": 814,
-            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/modmenu.json",
-            "path": "config/modmenu.json"
           }
         },
         {
@@ -454,6 +444,16 @@
             "size": 3437,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/mapfrontiers-client.toml",
             "path": "config/mapfrontiers-client.toml"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 814,
+            "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/config/modmenu.json",
+            "path": "config/modmenu.json"
           }
         },
         {
@@ -583,7 +583,6 @@
           "artifact": {
             "size": 231,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/optionsshaders.txt",
-            "MD5": "684f80dbc68d48df4d52c7ef5e8674c0",
             "path": "optionsshaders.txt"
           }
         },
@@ -592,9 +591,9 @@
           "name": "churoo playground season2.zip",
           "type": "File",
           "artifact": {
-            "size": 5111906,
+            "size": 5435972,
             "url": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/servers/ChurooPlayGround-1.20.1/files/resourcepacks/churoo%20playground%20season2.zip",
-            "MD5": "d07735dba03104b9cef3bc9ee871e5c7",
+            "MD5": "a476896c2156fc09161a9198c6d4b147",
             "path": "resourcepacks/churoo playground season2.zip"
           }
         },
