@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "ChurooPlayGround",
-      "name": "츄르네 놀이터",
+      "name": "츄르네 놀이터 시즌2",
       "description": "츄르네 놀이터 Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": "https://raw.githubusercontent.com/BBibbabbro/Churoo-PlayGround-distro/main/serverimg.png",
       "version": "1.0.4",
